@@ -8,7 +8,7 @@ export const App = () => {
   };
 
   const add100 = () => {
-    setCount(changedCount => changedCount + 100);
+    setCount(newResult => newResult + 100);
   };
 
   // DON'T change the code below
